@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>fashionUp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <link rel="stylesheet" href="assets/font/fontawesome-6.4.0/fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+   <main class="main">
+        <!-- Navbar Section -->
+        <nav id="nav">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#">fashionUp</a>
+                    <ul class="mobile-navbar-icon">
+                        <li class="icon-items"><a href=""><i class="fa-solid fa-user"></i></a></li>
+                        <li class="icon-items"><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                        <li class="icon-items"><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </ul>
+                    <span id="hamburger"><i class="fas fa-bars"></i></span>
+                </div>
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <ul class="navbar-icon">
+                    <input type="text" id="search-input" placeholder="Search">
+                    <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                    <li class="icon-items"><a href=""><i class="fa-solid fa-user"></i></a></li>
+                    <li class="icon-items"><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                    <li class="icon-items"><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Image Slider Section -->
+        <section id="slider">
+            <div class="container">
+                <img src="assets/images/slider2.jpg" id="slider1" class="slider active" alt="">
+                <img src="assets/images/slider1.jpg" id="slider2" class="slider" alt="">
+                <img src="assets/images/slider3.png" id="slider3" class="slider" alt="">
+                <div class="controls">
+                    <button class="prev" id="prev-btn">
+                        <i class="fa-solid fa-chevron-left"></i> Prev
+                    </button>
+                    <button class="next" id="next-btn">
+                        Next <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- New Arrival Section  -->
+        <section id="new-arrival" class="product">
+            <div class="container">
+                <h2 class="text-center">New Arrivals</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem labore hic nulla aliquid.</p>
+            
+                <div class="cards">
+                    
+                    <div class="card">
+                        <img src="assets/images/arrivalImg1.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Dress One</h4>
+                            <div class="rating text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$33</h4>
+                            <div class="action">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                <span><a href="product-detail.html"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/arrivalImg3.avif" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Dress One</h4>
+                            <div class="rating text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$33</h4>
+                            <div class="action">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/arrivalImg5.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Dress One</h4>
+                            <div class="rating text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$33</h4>
+                            <div class="action">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/arrivalImg4.jpg" alt="">
+                        <div class="content">
+                            <h4 class="text-center">Dress One</h4>
+                            <div class="rating text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-center">$33</h4>
+                            <div class="action">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Section  -->
+        <section id="collection">
+            <div class="container">
+                <div class="left">
+                    <div class="card">
+                        <img src="assets/images/collection4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>CLOTHES COLLECTION</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <img src="assets/images/collection6.jpg" alt="">
+                        <div class="content">
+                        <h3>WATCH COLLECTION</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/collection5.jpg" alt="">
+                        <div class="content">
+                        <h3>SHOES COLLECTION</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Products Section  -->
+        <section id="products" class="product">
+                <div class="container">
+                    <h2 class="text-center">Popular Products</h2>
+                    <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem labore hic nulla aliquid.</p>
+                    <div class="fliterable-btn">
+                        <button class="active" id="all_btn">All</button>
+                        <button id="shoe_btn">Shoe</button>
+                        <button id="watch_btn">Watch</button>
+                        <button id="cloth_btn">Cloth</button>
+                    </div>
+                
+                    <div class="cards">
+                        <div class="card pcard cloth">
+                            <img src="assets/images/arrivalImg1.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard cloth">
+                            <img src="assets/images/arrivalImg3.avif" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard cloth">
+                            <img src="assets/images/arrivalImg5.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard cloth">
+                            <img src="assets/images/arrivalImg4.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard shoe">
+                            <img src="assets/images/shoe1.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard shoe">
+                            <img src="assets/images/shoe2.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard shoe">
+                            <img src="assets/images/shoe3.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard shoe">
+                            <img src="assets/images/shoe4.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard watch">
+                            <img src="assets/images/watch.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard watch">
+                            <img src="assets/images/watch1.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard watch">
+                            <img src="assets/images/watch2.png" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pcard watch">
+                            <img src="assets/images/watch3.jpg" alt="">
+                            <div class="content">
+                                <h4 class="text-center">Dress One</h4>
+                                <div class="rating text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h4 class="text-center">$33</h4>
+                                <div class="action">
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </section>
+
+        <!-- Fashion Blog Section  -->
+        <section id="blog">
+            <div class="container">
+                <h2 class="text-center">Fashion Blogs</h2>
+                <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem labore hic nulla aliquid.</p>
+            
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/images/blog1.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title-Something</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium vel magni tempora ducimus. </p>
+                            <span class="date">08 March</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/blog2.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title-Something</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium vel magni tempora ducimus. </p>
+                            <span class="date">07 March</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/blog3.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title-Something</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium vel magni tempora ducimus. </p>
+                            <span class="date">05 March</span>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <!-- News Letter Section  -->
+        <section id="news-letter">
+            <div class="container">
+                <h2 class="text-center">Subscribed To Our News Letter</h2>
+                    <p class="text-center mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem labore hic nulla aliquid.</p>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Email">
+                    <button>Subscribe</button>
+                </form>    
+            </div>
+        </section>
+
+        <!-- footer Section  -->
+        <footer id="footer">
+            <div class="container">
+                <ul>
+                    <li><h4>About Us</h4></li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi consequatur repellendus saepe omnis dicta aperiam, eius voluptatum nihil earum.</li>
+                    <li>
+                        <img src="assets/images/visa.png" alt="">
+                        <img src="assets/images/aya.png" alt="">
+                        
+                        <img src="assets/images/cb.png" alt="">
+                        <img src="assets/images/paymentcard1.png" alt="">
+                    </li>
+                   
+                </ul>
+                <ul>
+                    <li><h4>Userful Links</h4></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    
+                </ul>
+                <ul>
+                    <li><h4>Contact Info</h4></li>
+                    <li>fashionUp@gmail.com</li>
+                    <li>09-968544778</li>
+                    <li>09-968588778</li>
+                    <li class="social-medias">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Go to Up -->
+        <a href="#slider" id="gotoup">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/font/fontawesome-6.4.0/fontawesome-free-6.4.0-web/js/all.min.js"></script>
+</body>
+</html>
